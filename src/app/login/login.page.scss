@@ -1,0 +1,33 @@
+.text-center {
+  text-align: center;
+}
+.title {
+  font-size: 32px;
+  font-weight: bold;
+}
+.title-img {
+  width: 50%;
+  margin: auto;
+}
+.login-button {
+  margin-top: 50px;
+}
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+.justify-align-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.inline-b {
+  display: inline-block;
+  width: 80px;
+  margin-left: 5px;
+}
+.enappd-logo {
+  position: absolute;
+  width: calc(100% - 32px);
+  bottom: 0;
+}

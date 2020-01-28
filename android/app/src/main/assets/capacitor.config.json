@@ -1,0 +1,8 @@
+{
+  "appId": "com.enappd.CapacitorFbLogin",
+  "appName": "ionic-capacitor-fb-login",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}

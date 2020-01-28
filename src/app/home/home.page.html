@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Logged in ... </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-row>
+    <ion-col class="text-center">
+      <ion-text class="title">
+        You are logged in !
+      </ion-text>
+    </ion-col>
+  </ion-row>
+
+
+  <ion-item *ngIf="user">
+    <ion-thumbnail slot="start">
+      <img [src]="user.picture.data.url" />
+    </ion-thumbnail>
+    <ion-label>
+      <h3>{{user.name}}</h3>
+    </ion-label>
+  </ion-item>
+
+
+  <ion-button class="login-button" (click)="signOut()" expand="full" fill="solid" color="danger">
+    Logout from Facebook
+  </ion-button>
+  <ion-grid class="enappd-logo">
+    <ion-row>
+      <ion-col class="justify-align-center">
+        <ion-text>By </ion-text>
+        <ion-img src="assets/enappd.png" class="inline-b"></ion-img>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
